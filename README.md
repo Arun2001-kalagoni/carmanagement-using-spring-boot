@@ -15,17 +15,17 @@ Spring Boot REST API – Exposes endpoints for CRUD operations.
 
 🚀 Features
 
-📌 Add new cars with details like model, brand, year, price, etc.
+1.Add new cars with details like model, brand, year, price, etc.
 
-🔍 Retrieve car details using unique identifiers.
+2.Retrieve car details using unique identifiers.
 
-✏️ Update existing car information as needed.
+3. Update existing car information as needed.
 
-🗑️ Delete car records from the system.
+4. Delete car records from the system.
 
-📡 RESTful API endpoints for seamless integration.
+5. RESTful API endpoints for seamless integration.
 
-✅ Exception handling and validation for secure operations.
+6. Exception handling and validation for secure operations.
 
 
 
@@ -33,8 +33,8 @@ Spring Boot REST API – Exposes endpoints for CRUD operations.
 ## 🔄 API Endpoints
 | Method | Endpoint | Description |
 |--------|---------|-------------|
-| **POST** | `/api/cars` | Add a new car |
-| **GET** | `/api/cars` | Get all cars |
-| **GET** | `/api/cars/{id}` | Get a car by ID |
-| **PUT** | `/api/cars/{id}` | Update car details |
-| **DELETE** | `/api/cars/{id}` | Delete a car |
+| **POST** | `/api/saveCar` | Add a new car |
+| **GET** | `/api/getCars` | Get all cars |
+| **GET** | `/api/getCar/{id}` | Get a car by ID |
+| **PUT** | `/api/editCar` | Update car details |
+| **DELETE** | `/api/deleteCar` | Delete a car |
